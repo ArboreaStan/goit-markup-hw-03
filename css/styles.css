@@ -1,0 +1,279 @@
+/*--------SETTINGS SITE--------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-background-color: #2f303a;
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-section-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*-----------HEADER-----------*/
+
+.header-title {
+  color: var(--main-title-color);
+}
+
+.header-navigation {
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+  letter-spacing: 0.03em;
+}
+
+.logo-tittle {
+  color: #000000;
+}
+
+.site-nav-item {
+}
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--second-title-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--main-text-color);
+}
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/*-----------------HERO SECTION------------------*/
+
+.hero {
+  background-color: var(--main-background-color);
+}
+
+.hero-title {
+  color: var(--main-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #ffffff;
+  background-color: #188ce8;
+}
+
+/*----------------REASONS SECTION-----------------*/
+
+.reasons-section {
+}
+
+.reasons-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.reasons-text {
+  color: var(--main-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/*--------------SPECIFIC SECTION------------------*/
+
+.specific-section {
+}
+.specific-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*------------------COMAND SECTION---------------------*/
+
+.command-section {
+  background-color: var(--main-section-color);
+}
+
+.command-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.command-card {
+  background-color: var(--main-all-color);
+}
+
+.command-title-name {
+  color: var(--second-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.command-text {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*---------------------FOOTER SECTION-----------------------*/
+
+.footer-section {
+  background-color: var(--main-background-color);
+}
+.footer-link {
+  color: var(--main-title-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contacts {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-tittle-next {
+  color: #ffffff;
+}
+.footer-link:hover,
+.footer-contacts:hover,
+.footer-link:focus,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
+/*---------------PORTFOLIO PAGE-----------------*/
+
+/*---------------HEADER SECTION COPY-----------------*/
+
+/*---------------WORKS SECTION-----------------*/
+
+.works-section {
+}
+
+.button-page {
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button-page:focus,
+.button-page:hover {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.works-card {
+}
+
+.works-title {
+  color: var(--second-title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.works-text {
+  color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/*---------------CONTACT SECTION COPY-----------------*/
