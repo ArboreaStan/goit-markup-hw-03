@@ -21,20 +21,37 @@ body {
   line-height: 1.71;
 }
 
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
+a {
+  text-decoration: none;
+}
+
 .list {
   list-style: none;
 }
@@ -56,8 +73,21 @@ ul {
   margin: -1px;
 }
 
+.general-container {
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /*-----------HEADER-----------*/
 
+.header-box {
+}
 .header-title {
   color: var(--main-title-color);
 }
@@ -112,6 +142,7 @@ ul {
 
 .hero {
   background-color: var(--main-background-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -120,6 +151,7 @@ ul {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -144,6 +176,8 @@ ul {
 /*----------------REASONS SECTION-----------------*/
 
 .reasons-section {
+  padding-top: 94px;
+  margin-bottom: 94px;
 }
 
 .reasons-title {
@@ -151,6 +185,7 @@ ul {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-bottom: 10px;
 }
 
 .reasons-text {
@@ -162,6 +197,7 @@ ul {
 /*--------------SPECIFIC SECTION------------------*/
 
 .specific-section {
+  padding-bottom: 94px;
 }
 .specific-title {
   color: var(--second-title-color);
@@ -169,15 +205,19 @@ ul {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 /*------------------COMAND SECTION---------------------*/
 
 .command-section {
   background-color: var(--main-section-color);
+  padding-bottom: 94px;
 }
 
 .command-title {
+  padding-top: 94px;
+  margin-bottom: 50px;
   color: var(--second-title-color);
   font-weight: 700;
   font-size: 36px;
@@ -205,6 +245,8 @@ ul {
 
 .footer-section {
   background-color: var(--main-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-link {
   color: var(--main-title-color);
