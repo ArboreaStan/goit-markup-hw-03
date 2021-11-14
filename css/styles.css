@@ -88,7 +88,6 @@ a {
 
 .header-box {
   display: flex;
-  align-items: center;
 }
 
 .header-title {
@@ -101,6 +100,7 @@ a {
 
 .site-nav {
   display: flex;
+  margin-left: 93px;
 }
 
 .site-nav-item:not(:last-child) {
@@ -117,6 +117,8 @@ a {
   line-height: 1.19;
   color: var(--accent-color);
   letter-spacing: 0.03em;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-tittle {
@@ -145,6 +147,7 @@ a {
 
 .auth-nav {
   display: flex;
+  margin-left: auto;
 }
 
 .auth-nav-item:not(:first-child) {
