@@ -87,12 +87,19 @@ a {
 /*-----------HEADER-----------*/
 
 .header-box {
+  display: flex;
 }
+
 .header-title {
   color: var(--main-title-color);
 }
 
 .header-navigation {
+  display: flex;
+}
+
+.site-nav {
+  display: flex;
 }
 
 .logo {
@@ -109,6 +116,10 @@ a {
 }
 
 .site-nav-item {
+}
+
+.auth-nav {
+  display: flex;
 }
 
 .site-nav-link {
@@ -180,6 +191,10 @@ a {
   margin-bottom: 94px;
 }
 
+.reasons-list {
+  display: flex;
+}
+
 .reasons-title {
   color: var(--second-title-color);
   font-weight: 700;
@@ -198,6 +213,10 @@ a {
 
 .specific-section {
   padding-bottom: 94px;
+}
+
+.specific-list {
+  display: flex;
 }
 .specific-title {
   color: var(--second-title-color);
@@ -223,6 +242,10 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+}
+
+.comand-list {
+  display: flex;
 }
 
 .command-card {
@@ -267,6 +290,10 @@ a {
 .logo-tittle-next {
   color: #ffffff;
 }
+
+.contacts-list {
+  margin-top: 20px;
+}
 .footer-link:hover,
 .footer-contacts:hover,
 .footer-link:focus,
@@ -281,6 +308,16 @@ a {
 /*---------------WORKS SECTION-----------------*/
 
 .works-section {
+}
+
+.works-list {
+  display: flex;
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
+.works-card-list {
+  display: flex;
 }
 
 .button-page {
