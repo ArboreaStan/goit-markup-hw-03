@@ -249,7 +249,7 @@ a {
 }
 
 .command-card {
-  background-color: var(--main-all-color);
+  background-color: #ffffff;
 }
 
 .command-title-name {
@@ -308,6 +308,10 @@ a {
 /*---------------WORKS SECTION-----------------*/
 
 .works-section {
+}
+
+.works-container {
+  padding-bottom: 94px;
 }
 
 .works-list {
