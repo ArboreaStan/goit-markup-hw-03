@@ -184,6 +184,7 @@ a {
 }
 
 .hero-title {
+  text-transform: uppercase;
   color: var(--main-title-color);
   font-weight: 900;
   font-size: 44px;
@@ -358,12 +359,20 @@ a {
 
 /*---------------HEADER SECTION COPY-----------------*/
 
+.header-border {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #e9e7e7;
+}
 /*---------------WORKS SECTION-----------------*/
 
 .works-section {
 }
 
 .works-container {
+}
+
+.works-container-card {
   padding-bottom: 94px;
 }
 
@@ -386,6 +395,11 @@ a {
   letter-spacing: 0.03em;
   background: #f5f4fa;
   border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.works-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button-page:focus,
