@@ -11,6 +11,7 @@ html {
   --main-text-color: #757575;
   --accent-color: #2196f3;
   --main-section-color: #f5f4fa;
+  --main-border-color: #eeeeee;
 }
 
 body {
@@ -385,6 +386,7 @@ a {
 
 .works-card-list {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .button-page {
@@ -409,9 +411,6 @@ a {
   background-color: var(--accent-color);
 }
 
-.works-card {
-}
-
 .works-title {
   color: var(--second-title-color);
   font-weight: 700;
@@ -427,4 +426,9 @@ a {
   letter-spacing: 0.03em;
 }
 
+.works-card {
+  border-style: solid;
+  border-width: 1px;
+  color: var(--main-border-color);
+}
 /*---------------CONTACT SECTION COPY-----------------*/
