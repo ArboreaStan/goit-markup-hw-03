@@ -357,14 +357,14 @@ a {
 
 /*---------------PORTFOLIO PAGE-----------------*/
 
-/*---------------HEADER SECTION COPY-----------------*/
+/*---------------HEADER PORTFOLIO-----------------*/
 
 .header-border {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   color: #e9e7e7;
 }
-/*---------------WORKS SECTION-----------------*/
+/*---------------WORKS SECTION PORTFOLIO-----------------*/
 
 .works-section {
 }
@@ -380,6 +380,7 @@ a {
   display: flex;
   padding-top: 94px;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .works-card-list {
