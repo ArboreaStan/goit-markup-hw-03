@@ -85,7 +85,18 @@ a {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /*-----------HEADER-----------*/
+
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  color: #e9e7e7;
+}
 
 .header-box {
   display: flex;
@@ -176,9 +187,6 @@ a {
 .hero {
   background-color: var(--main-background-color);
   text-align: center;
-}
-
-.hero-box {
   padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
@@ -235,9 +243,12 @@ a {
 
 .reasons-title {
   color: var(--second-title-color);
+  font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
@@ -250,7 +261,7 @@ a {
 /*--------------SPECIFIC SECTION------------------*/
 
 .specific-section {
-  padding-bottom: 94px;
+  padding-top: 0;
 }
 
 .specific-list {
@@ -274,11 +285,9 @@ a {
 
 .command-section {
   background-color: var(--main-section-color);
-  padding-bottom: 94px;
 }
 
 .command-title {
-  padding-top: 94px;
   margin-bottom: 50px;
   color: var(--second-title-color);
   font-weight: 700;
@@ -293,7 +302,8 @@ a {
 
 .command-item {
   background-color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
 }
 
@@ -306,6 +316,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-bottom: 10px;
 }
 
 .command-text {
@@ -323,9 +334,13 @@ a {
 
 .footer-section {
   background-color: var(--main-background-color);
+}
+
+.contacts-box {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer-link {
   color: var(--main-title-color);
   font-style: normal;
@@ -342,13 +357,19 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .logo-tittle-next {
   color: #ffffff;
 }
 
-.contacts-list {
+.contacts-address {
   margin-top: 20px;
 }
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-link:hover,
 .footer-contacts:hover,
 .footer-link:focus,
@@ -367,19 +388,8 @@ a {
 }
 /*---------------WORKS SECTION PORTFOLIO-----------------*/
 
-.works-section {
-}
-
-.works-container {
-}
-
-.works-container-card {
-  padding-bottom: 94px;
-}
-
 .works-list {
   display: flex;
-  padding-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
 }
